@@ -23,23 +23,17 @@ chat-app-backend/
 │
 ├── config/
 │ └── db.js
-│
 ├── controllers/
 │ └── message.controller.js
-│
 ├── models/
 │ ├── user.model.js
 │ └── message.model.js
-│
 ├── routes/
 │ └── message.routes.js
-│
 ├── socket/
 │ └── index.js
-│
 ├── frontend/
 │ └── index.html # Simple frontend for testing sockets
-│
 ├── .env
 ├── server.js
 ├── package.json
