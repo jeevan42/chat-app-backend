@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO Chat Test</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  </head>
+  <body>
+    <input id="msg" placeholder="Message" />
+    <button onclick="sendMessage()">Send</button>
+    <ul id="messages"></ul>
+
+    <script>
+      const socket = io("http://localhost:5000");
+
+      socket.on("receive-message", (data) => {
+        const li = document.createElement("li");
+        li.textContent = `${data.sender}: ${data.content}`;
+        document.getElementById("messages").appendChild(li);
+      });
+
+      function sendMessage() {
+        const msg = document.getElementById("msg").value;
+        socket.emit("send-message", { sender: "Jeevan", content: msg });
+        document.getElementById("msg").value = "";
+      }
+    </script>
+  </body>
+</html>
