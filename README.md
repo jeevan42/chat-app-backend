@@ -34,7 +34,7 @@ chat-app-backend/
 │ └── index.js
 ├── frontend/
 │ └── index.html # Simple frontend for testing sockets
-├── .env
+├── .env.example
 ├── server.js
 ├── package.json
 └── .gitignore
