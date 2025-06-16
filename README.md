@@ -103,3 +103,14 @@ socket.on("receive-message", (data) => {
 ```
 
 ---
+
+## 💻 Frontend (Local Testing)
+Included in frontend/index.html — open this in browser and test:
+
+### 🧪 How to Use:
+- Open frontend/index.html in Chrome or any browser.
+- Type a message and click Send.
+- You’ll see the real-time message show up in < ul > and saved to MongoDB.
+- Open another browser window to test real-time multiple connections.
+
+---
