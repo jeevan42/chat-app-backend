@@ -92,3 +92,14 @@ socket.emit("send-message", {
   content: "Hello World"
 });
 ```
+
+### 🔹 receive-message
+Server broadcasts:
+
+```js
+socket.on("receive-message", (data) => {
+  console.log(data); // { sender, content, timestamp }
+});
+```
+
+---
