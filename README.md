@@ -132,3 +132,9 @@ User disconnected: t6vkFfkcKkgHAAAF
 - Socket.IO with Redis for scaling
 
 ---
+
+## 🧑‍💻 Author
+
+Made by [**Jeevan42**](https://github.com/jeevan42) — for learning, reusability, and real-time **Socket.IO** practice ❤️
+
+---
