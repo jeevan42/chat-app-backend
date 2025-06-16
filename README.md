@@ -68,3 +68,27 @@ node server.js
 
 ---
 
+## 📬 REST API
+
+### 🔹 `GET /api/messages`  
+Returns all saved chat messages.
+
+```http
+GET http://localhost:5000/api/messages
+```
+
+---
+
+## 🔌 Socket.IO Events
+✅ On Connection:
+Logs connection ID on server.
+
+### 🔹 send-message
+Client emits:
+
+```js
+socket.emit("send-message", {
+  sender: "Jeevan",
+  content: "Hello World"
+});
+```
