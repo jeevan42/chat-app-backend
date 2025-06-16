@@ -114,3 +114,21 @@ Included in frontend/index.html — open this in browser and test:
 - Open another browser window to test real-time multiple connections.
 
 ---
+
+## 🔍 Example Logs in Server Terminal
+
+```sql
+User connected: kdl1nrwpxAAA
+User disconnected: t6vkFfkcKkgHAAAF
+```
+
+---
+
+## 💡 Future Enhancements
+- JWT Auth
+- User-to-user or group chats
+- Typing status
+- Seen/delivered status
+- Socket.IO with Redis for scaling
+
+---
