@@ -45,3 +45,24 @@ chat-app-backend/
 ├── package.json
 └── .gitignore
 </pre>
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repo & Install Dependencies
+```bash
+npm install
+```
+
+### 2. Create .env File
+PORT=5000
+MONGO_URI=mongodb://127.0.0.1:27017/chatapp
+
+### 3. Start the Server
+```bash
+node server.js
+```
+
+---
+
