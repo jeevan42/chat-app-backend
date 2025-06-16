@@ -55,9 +55,11 @@ chat-app-backend/
 npm install
 ```
 
-### 2. Create .env File
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/chatapp
+### 2. Create a `.env` file using `.env.example`
+   ```env
+   MONGO_URI=your_mongo_connection_string
+   PORT=5000
+   ```
 
 ### 3. Start the Server
 ```bash
